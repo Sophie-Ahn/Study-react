@@ -1,0 +1,18 @@
+label.Mui-focused {color: green;}
+.MuiInput-underline::after {border-bottom-color: green;}
+.MuiOutlinedInput-root fieldset {border-color: red;}
+.MuiOutlinedInput-root:hover fieldset {border-color: yellow;}
+.MuiOutlinedInput-root.Mui-focused fieldset {border-color: green;}
+
+label.Mui-focused {color: green}
+.MuiInput-underline::after {border-bottom-color: green}
+.MuiOutlinedInput-root fieldset {border-color: red}
+.MuiOutlinedInput-root:hover fieldset {border-color: yellow}
+.Mui-focused fieldset {border-color: green}
+
+.div_style {background: beige;}
+/* .div_style .MuiInput-root {width: 230px;} 인풋 부모요소에 접근 */
+.div_style .MuiInput-input {width: 230px; height: 2.7rem;} /* 인풋 태그에 접근 */
+.div_style .MuiFormLabel-root {display: inline-block;} /* 인풋 태그에 접근 */
+.Mui-focused {background: #f00;}
+.box_style .MuiOutlinedInput-input {height: 3rem;}
